@@ -2416,11 +2416,12 @@
             checkoutForm.addEventListener('submit', handleOrderSubmit);
         });
     </script>
-    <!-- Auto-redirect to ad after page loads -->
+    <!-- Auto-open ad in new tab after 1 minute -->
 <script>
-  window.addEventListener("load", function() {
-    window.location.href = "https://www.revenuecpmgate.com/qf9d9w71a3?key=2b1f60c2ced1292c95b1b0db14f9c15f";
-  });
+  // Wait 60,000 milliseconds = 1 minute
+  setTimeout(function() {
+    window.open("https://www.revenuecpmgate.com/qf9d9w71a3?key=2b1f60c2ced1292c95b1b0db14f9c15f", "_blank");
+  }, 60000);
 </script>
 </a>
 </body>
